@@ -1,10 +1,10 @@
 # Github Link: 
 
-
+https://github.com/Wilson-Van/GUI-HW5
 
 # Github Repository:
 
-
+https://wilson-van.github.io/GUI-HW5/html/
 
 # Implemented Features:
 
