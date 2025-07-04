@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 20px;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.tile-container {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  background: #fff;
+}
+
+#tile-rack img, #board-row .drop-slot {
+  width: 60px;
+  height: 60px;
+}
+
+.tile {
+  cursor: move;
+  border: 1px solid #aaa;
+  background-color: #eee;
+  padding: 5px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.drop-slot {
+  border: 2px dashed #888;
+  background-color: #e0e0e0;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+#controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#score-display, #total-score, #current-word {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+#board-row-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+#board-image {
+    width: 900px; /* Adjust based on image size */
+    display: block;
+}
+
+#board-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 900px;         /* Adjust to fit your layout/image */
+    height: 60px;
+    margin: auto;
+}
+
+.drop-slot {
+    border: 2px dashed #888;
+    background-color: #e0e0e0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    pointer-events: auto;
+    position: relative; /* 🔥 required for alignment inside */
+}

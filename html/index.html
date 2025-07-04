@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scrabble Drag and Drop</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <script defer src="../js/script.js"></script>
+    </head>
+    <body>
+        <h1>Scrabble Drag-and-Drop</h1>
+        <div id="rack" class="tile-container">
+            <h2>Your Tiles</h2>
+            <div id="tile-rack"></div>
+        </div>
+
+    <div id="board" class="tile-container">
+        <h2>Board</h2>
+            <div id="board-row-container">
+                <img id="board-image" src="../graphics_data/Scrabble_Board_OneLine.png" alt="Scrabble Board Row">
+                <div id="board-row"></div>
+            </div>
+    </div>
+
+    <div id="controls">
+        <button id="submit-word">Submit Word</button>
+        <button id="reset-game">Reset Game</button>
+        <p id="score-display">Score: 0</p>
+        <p id="total-score">Total: 0</p>
+        <p id="current-word">Word: </p>
+    </div>
+    </body>
+</html>
